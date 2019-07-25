@@ -1,4 +1,4 @@
-baseURL = "JEFFRIS/"
+baseURL = "https://intermezzio.github.io/JEFFRIS/"
 languageCode = "en-us"
 publishDir = "docs"
 title = "JEFFRIS"
@@ -16,7 +16,7 @@ pygmentsUseClasses = true
 
 [[menu.main]]
     name = "Docs"
-    url = "/docs/"
+    url = "docs/"
     weight = 2
 
 [params]
