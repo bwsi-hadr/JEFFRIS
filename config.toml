@@ -35,5 +35,5 @@ pygmentsUseClasses = true
     meta_og_description = "JEFFRIS is a project for MIT Beaver Works Summer Institute Remote Sensing. This project involves Raspberry Pis taking pictures which are later processed using Python and OpenCV."
 
   [params.logo]
-      mobile = "https://beaverworks.ll.mit.edu/CMS/bw/sites/all/themes/professional_theme/logo.png"
-      standard  = "https://www.ll.mit.edu/sites/default/files/styles/mit_logo/public/config/2017-12/mit-logo%402x.png?itok=tooT57cO"
+      mobile = "mit-bwsi.png"
+      standard  = "mit-bwsi.png"
