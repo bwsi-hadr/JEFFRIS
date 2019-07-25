@@ -1,5 +1,6 @@
 baseURL = "intermezzio.github.io/JEFFRIS/"
 languageCode = "en-us"
+publishDir = "docs"
 title = "JEFFRIS"
 themesDir = "themes/"
 theme = "hugo-whisper-theme"
@@ -36,4 +37,3 @@ pygmentsUseClasses = true
   [params.logo]
       mobile = "https://beaverworks.ll.mit.edu/CMS/bw/sites/all/themes/professional_theme/logo.png"
       standard  = "https://www.ll.mit.edu/sites/default/files/styles/mit_logo/public/config/2017-12/mit-logo%402x.png?itok=tooT57cO"
-publishDir = "docs"
