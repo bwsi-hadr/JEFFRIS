@@ -1,0 +1,38 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "JEFFRIS"
+themesDir = "themes/"
+theme = "hugo-whisper-theme"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Docs"
+    url = "/docs/"
+    weight = 2
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/docs'
+  homepage_button_text = 'Learn More'
+  homepage_intro = 'homepage_intro here'
+  homepage_image = '/images/terminal.gif'
+
+  [params.homepage_meta_tags]
+    meta_description = "JEFFRIS is a project for MIT Beaver Works Summer Institute Remote Sensing. This project involves Raspberry Pis taking pictures which are later processed using Python and OpenCV."
+    meta_og_title = "JEFFRIS Home"
+    meta_og_type = "website"
+    meta_og_url = "https://intermezzio.github.io/JEFFRIS"
+    meta_og_image = "https://beaverworks.ll.mit.edu/CMS/bw/sites/all/themes/professional_theme/logo.png"
+    meta_og_description = "JEFFRIS is a project for MIT Beaver Works Summer Institute Remote Sensing. This project involves Raspberry Pis taking pictures which are later processed using Python and OpenCV."
+
+  [params.logo]
+      mobile = "https://beaverworks.ll.mit.edu/CMS/bw/sites/all/themes/professional_theme/logo.png"
+      standard  = "https://www.ll.mit.edu/sites/default/files/styles/mit_logo/public/config/2017-12/mit-logo%402x.png?itok=tooT57cO"
