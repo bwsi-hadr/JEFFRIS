@@ -16,7 +16,7 @@ pygmentsUseClasses = true
 
 [[menu.main]]
     name = "Docs"
-    url = "docs/"
+    url = "/docs/"
     weight = 2
 
 [params]
