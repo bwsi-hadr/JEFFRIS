@@ -129,7 +129,9 @@
 <div class="content">
   
 
-<h2 id="opening-the-task-manager">Opening the Task Manager</h2>
+<h2 id="starting-a-script-in-the-terminal">Starting a Script in the Terminal</h2>
+
+<h2 id="ending-a-script-in-the-terminal-task-manager">Ending a Script in the (Terminal) Task Manager</h2>
 
 <p>A task manager is important for remotely managing your scripts on the Raspberry Pi. Because the Raspberry Pi has a weak processor, it is ideal to use a terminal based task manager to end unnecessary tasks, like scripts that have already completed.</p>
 
@@ -140,11 +142,17 @@
 
 <li><p>To search for a specific task (like a script), use the <code>grep</code> feature. The following line shows how you can search for all tasks with the name &ldquo;python in them.</p>
 <div class="highlight"><pre class="chroma">ps aux | grep python</pre></div>
-<p>The pipe (&ldquo;|&rdquo;) tells the computer to take the output of <code>ps aux</code> and search for it using grep.</p></li>
+<p>The pipe (&ldquo;|&rdquo;) tells the computer to take the output of <code>ps aux</code> and search for it using grep. The output of this function may look like the following:</p>
+<div class="highlight"><pre class="chroma">interme+  6632  0.2  0.0  13208  8436 pts/0    S+   16:30   0:00 python please_stop_it.py
+interme+  6635  0.0  0.0   6264  2348 pts/6    S+   16:30   0:00 grep --colour=auto python</pre></div>
+<p><strong>Please Note:</strong> There are two tasks in the output that have the name &lsquo;python&rsquo; in it. The first one (<code>6632</code>) is the command for <code>python please_stop_it.py</code>, and the task that needs to end. However, the second command is <code>grep python</code>, or the command running <em>right now</em> to search in the task manager. Killing this process is useless and does not affect the python script.</p></li>
 
 <li><p>Once you&rsquo;ve found the task, take the id of the task (a four digit number on the same line as the task name) and run the following code:</p>
 <div class="highlight"><pre class="chroma">kill [####]</pre></div>
-<p>This ends that task.</p></li>
+<p>This ends that task.
+The following example involves opening the task manager and ending a task for a Python script.</p>
+
+<p><img src="/JEFFRIS/ps-aux-kill.gif" alt="" /></p></li>
 </ol>
 
 </div>

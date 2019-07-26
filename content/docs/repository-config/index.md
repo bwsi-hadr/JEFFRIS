@@ -38,9 +38,17 @@ To properly set up your github repositories, you will need to set the MIT code r
 	![Code here](/JEFFRIS/git-remote-v-double-check.gif)
 
 	The command `clear` in a Linux command line clears the terminal, similar to the clear button on a calculator. The command is completely optional and does not affect the repositories. <br />
-	**Please Note:** Your origin should have your username, not intermezzio, as the owner of each repository. Also, if any of the information in your `git remote -v` output is incorrect, use <br />
-	```git remote set-url [origin or upstream] the-correct-url.com/something.git``` <br />
-	to fix your links.
+	**Please Note:** Your origin should have your username, not intermezzio, as the owner of each repository. 
+
+## Troubleshooting
+
+Also, if any of the information in your `git remote -v` output is incorrect, use <br />
+```
+git remote set-url [origin or upstream] the-correct-url.com/something.git
+```
+to fix your links
+
+![Code here](/JEFFRIS/git-remote-set-url.gif)
 
 ## Set up your Submodule
 
