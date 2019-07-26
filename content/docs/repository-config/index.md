@@ -43,3 +43,7 @@ To properly set up your github repositories, you will need to set the MIT code r
 	to fix your links.
 
 ## Set up your Submodule
+
+Submodules are an important feature for larger git projects. Instead 
+
+1. 

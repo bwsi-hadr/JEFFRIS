@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>404 Page not found - JEFFRIS</title>
+  <title>Task Management - JEFFRIS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://intermezzio.github.io/JEFFRIS/favicon.png">
@@ -18,7 +18,7 @@
 
 </head>
 
-<body class='page '>
+<body class='page page-default-single'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
@@ -89,17 +89,70 @@
     
     
     
+    
+    
 
     
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Docs</h4>
+  <ul>
     
-<div class="container pt-4 pt-10">
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-9">
-      <h1>404 Page Not Found</h1>
-    </div>
-  </div>
+    <li class="">
+      <a href="https://intermezzio.github.io/JEFFRIS/docs/code-downloads/">Download the Code</a>
+    </li>
+    
+    <li class="active ">
+      <a href="https://intermezzio.github.io/JEFFRIS/docs/pi/task-management/">Task Management</a>
+    </li>
+    
+    <li class="">
+      <a href="https://intermezzio.github.io/JEFFRIS/docs/repository-config/">Repository Configurations</a>
+    </li>
+    
+    <li class="">
+      <a href="https://intermezzio.github.io/JEFFRIS/docs/pi/ssh/">SSH</a>
+    </li>
+    
+  </ul>
 </div>
 
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">Task Management</h1>
+<div class="content">
+  
+
+<h2 id="opening-the-task-manager">Opening the Task Manager</h2>
+
+<p>A task manager is important for remotely managing your scripts on the Raspberry Pi. Because the Raspberry Pi has a weak processor, it is ideal to use a terminal based task manager to end unnecessary tasks, like scripts that have already completed.</p>
+
+<ol>
+<li><p>After you SSH into the raspberry pi, open a terminal and write</p>
+<div class="highlight"><pre class="chroma">ps aux</pre></div>
+<p>This will list all of the tasks running on the Raspberry Pi.</p></li>
+
+<li><p>To search for a specific task (like a script), use the <code>grep</code> feature. The following line shows how you can search for all tasks with the name &ldquo;python in them.</p>
+<div class="highlight"><pre class="chroma">ps aux | grep python</pre></div>
+<p>The pipe (&ldquo;|&rdquo;) tells the computer to take the output of <code>ps aux</code> and search for it using grep.</p></li>
+
+<li><p>Once you&rsquo;ve found the task, take the id of the task (a four digit number on the same line as the task name) and run the following code:</p>
+<div class="highlight"><pre class="chroma">kill [####]</pre></div>
+<p>This ends that task.</p></li>
+</ol>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
     
   </div>
 

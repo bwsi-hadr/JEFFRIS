@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About the Pi on JEFFRIS</title>
+    <link>https://intermezzio.github.io/JEFFRIS/docs/pi/</link>
+    <description>Recent content in About the Pi on JEFFRIS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate>
+    
+	<atom:link href="https://intermezzio.github.io/JEFFRIS/docs/pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Task Management</title>
+      <link>https://intermezzio.github.io/JEFFRIS/docs/pi/task-management/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://intermezzio.github.io/JEFFRIS/docs/pi/task-management/</guid>
+      <description>Opening the Task Manager A task manager is important for remotely managing your scripts on the Raspberry Pi. Because the Raspberry Pi has a weak processor, it is ideal to use a terminal based task manager to end unnecessary tasks, like scripts that have already completed.
+ After you SSH into the raspberry pi, open a terminal and write
+ps aux This will list all of the tasks running on the Raspberry Pi.</description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>https://intermezzio.github.io/JEFFRIS/docs/pi/ssh/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://intermezzio.github.io/JEFFRIS/docs/pi/ssh/</guid>
+      <description>What is SSH yes</description>
+    </item>
+    
+  </channel>
+</rss>
