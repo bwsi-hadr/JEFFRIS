@@ -26,9 +26,7 @@
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/JEFFRIS/docs/repository-config/</guid>
-      <description>Add the Upstream To properly set up your github repositories, you will need to set the MIT code repositories as your upstreams.
- Open a terminal and go to the directory of your image processing repository. Then, type the command git remote -v to check that your origin is set properly. You should see the following output:
-origin https://github.com/&amp;lt;username&amp;gt;/student-image-processing (fetch) origin https://github.com/&amp;lt;username&amp;gt;/student-image-processing (push) Add the upstream by writing the following line into your terminal:</description>
+      <description>Add the Upstream To properly set up your github repositories, you will need to set the MIT code repositories as your upstreams. While the origin repository represents code that you write, the upstream repository is the original repostiory that your code &amp;ldquo;works off of.&amp;rdquo; At first, it may seem like you don&amp;rsquo;t need to use the upstream anymore, since you already have the code. However, this is an important step because if the upstream code changes, adding the upstream allows you to update your code to match the most recent state of the upstream.</description>
     </item>
     
     <item>

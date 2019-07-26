@@ -123,7 +123,7 @@
 
 <h2 id="add-the-upstream">Add the Upstream</h2>
 
-<p>To properly set up your github repositories, you will need to set the MIT code repositories as your upstreams.</p>
+<p>To properly set up your github repositories, you will need to set the MIT code repositories as your upstreams. While the origin repository represents code that you write, the upstream repository is the original repostiory that your code &ldquo;works off of.&rdquo; At first, it may seem like you don&rsquo;t need to use the upstream anymore, since you already have the code. However, this is an important step because if the upstream code changes, adding the upstream allows you to update your code to match the most recent state of the upstream.</p>
 
 <ol>
 <li><p>Open a terminal and go to the directory of your image processing repository. Then, type the command <code>git remote -v</code> to check that your origin is set properly. You should see the following output:</p>
@@ -140,7 +140,20 @@ origin  https://github.com/&lt;username&gt;/student-image-processing (push)
 upstream    https://github.com/bwsi-hadr/student-image-processing.git (fetch)
 upstream    https://github.com/bwsi-hadr/student-image-processing.git (push)</pre></div>
 <p><img src="/JEFFRIS/git-remote-v-add-upstream.gif" alt="Code here" /></p></li>
+
+<li><p>Repeat steps 1-3 for all three repositories: student-image-processing, student-access-images, and student-pi-imaging</p></li>
+
+<li><p>Check that all three of your repositories are set with <em>your repository</em> as the origin and the <em>bwsi-hadr repository</em> as the upstream.</p>
+
+<p><img src="/JEFFRIS/git-remote-v-double-check.gif" alt="Code here" /></p>
+
+<p>The command <code>clear</code> in a Linux command line clears the terminal, similar to the clear button on a calculator. The command is completely optional and does not affect the repositories. <br />
+<strong>Please Note:</strong> Your origin should have your username, not intermezzio, as the owner of each repository. Also, if any of the information in your <code>git remote -v</code> output is incorrect, use <br />
+<code>git remote set-url [origin or upstream] the-correct-url.com/something.git</code> <br />
+to fix your links.</p></li>
 </ol>
+
+<h2 id="set-up-your-submodule">Set up your Submodule</h2>
 
 </div>
 </div>
