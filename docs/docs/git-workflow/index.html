@@ -135,15 +135,63 @@
 
 <h2 id="summary">Summary</h2>
 
+<p>Git is a very efficient program that helps manage project development. Although it may seem complicating at first, all of its features are designed so you can easily track versions and work in parallel with others. The following tasks are done after code is edited to share that code with others.</p>
+
 <h3 id="staging-files">Staging files</h3>
+
+<p>With git, changes to code are sent in &ldquo;commits&rdquo;. Commits state what files are changed and how. To prepare a commit, you need to stage files (get them ready) for committing. In git, use the command <code>git add &lt;file&gt;</code> to stage a file for committing. To stage all files in a directory, use the following:</p>
+<div class="highlight"><pre class="chroma">git add .</pre></div>
+<p>The opposite of this, removing a file, can be done with <code>git rm &lt;file&gt;</code>.</p>
 
 <h3 id="commits">Commits</h3>
 
+<p>Now that files are staged, they need to be committed. In git, use the command <code>git commit</code> to make a commit. The best way to make a commit with a good message, however, is with the <code>-m</code> flag. This allows you to make a commit message, usually saying what you changed in the commit. For example, a good commit may look like the following:</p>
+<div class="highlight"><pre class="chroma">git commit -m &#34;Complete the NDVI image processing script.&#34;</pre></div>
+<p>Take note of a couple of things from the commit
+* The commit message is specific
+* The commit message uses the imperative tense</p>
+
+<p>Some companies ensure specific formats for commit messages, but for the purpose of this project, you can make commit messages however you would like. Still, I would advise making content related commit messages (ex don&rsquo;t make your git commit message &ldquo;hi&rdquo;).</p>
+
+<p>If you want to combine your add and commit command, use the <code>-a</code> flag. For example:</p>
+<div class="highlight"><pre class="chroma">git commit -am &#34;Your commit message&#34;</pre></div>
+<p>This command stages the files and commits them all at once.</p>
+
+<p><strong>Please Note:</strong> two flags, <code>-a</code> and <code>-m</code>, are combined to make the flag <code>-am</code>.</p>
+
 <h3 id="push">Push</h3>
+
+<p>Now that the commit is made, it needs to be published, or pushed, to the origin (cloud) repository. To push your code, use the following command:</p>
+<div class="highlight"><pre class="chroma">git push &lt;location&gt; &lt;branch&gt;</pre></div>
+<p>For this project, the location is always the origin, although when you pull code, you may need to pull from the upstream. The default branch is the master branch, and for this project, you will not need to use anything other than the master branch for pushing code. Consequently, your push commands will usually be</p>
+<div class="highlight"><pre class="chroma">git push origin master</pre></div>
+<p>If this does not work on your computer, the origin has probably changed since you last updated your code. Pull your code first, then try again.</p>
 
 <h3 id="pull">Pull</h3>
 
+<p>Pulling code allows you to update your files based on other people&rsquo;s commits. Pull commands are done using the same format as pull commands, as shown:</p>
+<div class="highlight"><pre class="chroma">git pull &lt;location&gt; &lt;branch&gt;</pre></div>
+<p>For example, in this project, most of your pull commands will look like the following:</p>
+<div class="highlight"><pre class="chroma">git pull origin master</pre></div>
+<p>For push and pull commands, the default location and branch are origin and master, respectively. Because of this, the above command (as well as the push command) can be simplified to the following:</p>
+<div class="highlight"><pre class="chroma">git pull</pre></div>
+<p>If the git pull does not work, check out the git merge section.</p>
+
 <h3 id="merge">Merge</h3>
+
+<p>Imagine two people, Alice and Bob, are making a painting. Alice and Bob leave the painting half-completed in a small room in their house. However, they both take pictures of the painting and print them out so they can look at the painting on their own. Alice has a great idea for the painting. She paints a few strokes onto her printed photo, then goes to the main painting to update it with her idea. Bob also has a great idea for the painting, and he paints a few strokes on his own photo. However, when Bob approaches the shared painting to make his updates, he realizes that the painting has changed since he&rsquo;s last viewed it. To fix his problem, Bob copies (pulls) Alice&rsquo;s edits onto his own photo, and then he merges Alice&rsquo;s ideas with his own ideas for changing the painting. Once Bob has successfully combined (merged) both edits to the painting, he updates (pushes) his changes on the shared painting.</p>
+
+<p>I sincerely hope you enjoyed this metaphor about git merges. In the story, Bob experienced a merge conflict because two people tried to edit the same painting. He had to copy the edits to his personal photo before he could merge his edits and update the real painting.</p>
+
+<p>When you have an error pushing code because the origin has changed, you first have to pull your code.</p>
+<div class="highlight"><pre class="chroma">git pull</pre></div>
+<p>If you are asked to write a commit message, you can skip the next step. If not, you may have a merge conflict. Your edits and your teammates&rsquo; edits overlap. Now, open your repository in a program like <a href="https://www.sublimemerge.com/">Sublime Merge</a> to see the conflicts.</p>
+
+<p>Once you have merged the files, choosing how to combine the two (or more) commits, commit and push your changes.</p>
+
+<p><img src="/JEFFRIS/git-push-pull-push.gif" alt="Code here" /></p>
+
+<p>The above gif shows a possible merge conflict in the instructors&rsquo; code (image-processing). I updated a python script on my computer, and the origin had an updated README. The automatic merge updated both files because the edits did not overlap.</p>
 
 <h1 id="troubleshooting">Troubleshooting</h1>
 

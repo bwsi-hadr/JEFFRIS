@@ -35,7 +35,8 @@
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/JEFFRIS/docs/git-workflow/</guid>
-      <description> Summary Staging files Commits Push Pull Merge Troubleshooting </description>
+      <description>Summary Git is a very efficient program that helps manage project development. Although it may seem complicating at first, all of its features are designed so you can easily track versions and work in parallel with others. The following tasks are done after code is edited to share that code with others.
+Staging files With git, changes to code are sent in &amp;ldquo;commits&amp;rdquo;. Commits state what files are changed and how.</description>
     </item>
     
   </channel>
