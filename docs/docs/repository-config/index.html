@@ -106,16 +106,20 @@
       <a href="https://intermezzio.github.io/JEFFRIS/docs/code-downloads/">Download the Code</a>
     </li>
     
-    <li class="">
-      <a href="https://intermezzio.github.io/JEFFRIS/docs/pi/task-management/">Task Management</a>
-    </li>
-    
     <li class="active ">
       <a href="https://intermezzio.github.io/JEFFRIS/docs/repository-config/">Repository Configurations</a>
     </li>
     
     <li class="">
+      <a href="https://intermezzio.github.io/JEFFRIS/docs/git-workflow/">Git Workflow</a>
+    </li>
+    
+    <li class="">
       <a href="https://intermezzio.github.io/JEFFRIS/docs/pi/ssh/">SSH</a>
+    </li>
+    
+    <li class="">
+      <a href="https://intermezzio.github.io/JEFFRIS/docs/pi/task-management/">Task Management</a>
     </li>
     
   </ul>
@@ -159,7 +163,31 @@ upstream    https://github.com/bwsi-hadr/student-image-processing.git (push)</pr
 <strong>Please Note:</strong> Your origin should have your username, not intermezzio, as the owner of each repository.</p></li>
 </ol>
 
-<h2 id="troubleshooting">Troubleshooting</h2>
+<h2 id="set-up-your-submodule">Set up your Submodule</h2>
+
+<p>Submodules are an important feature for larger git projects. A submodule connects two repositories, which means that one repository is literally inside another. More information about submodules can be found <a href="https://www.atlassian.com/blog/git/git-submodules-workflows-tips">here</a>. In this project, you will make your <code>student-access-images</code> repository a submodule of your <code>student-image-processing</code> repository.</p>
+
+<ol>
+<li><p>Open a terminal (or git bash terminal) on your computer and navigate to your <code>student-image-processing</code> project folder. You should have cloned this repository when you <a href="/JEFFRIS/docs/code-downloads">downloaded the code</a>.</p></li>
+
+<li><p><strong>BE EXTREMELY CAREFUL</strong> when you perform this next step. Make sure your <strong>forked</strong> <code>student-access-images</code> repository is set as the submodule, as opposed to the bwsi-hadr one. To add the submodule, run the following command in your <code>student-image-processing</code> repository:</p>
+<div class="highlight"><pre class="chroma">git submodule add https://github.com/&lt;username&gt;/student-access-images.git</pre></div></li>
+
+<li><p>Save your changes by typing the following code:</p>
+<div class="highlight"><pre class="chroma">git add .
+git commit -m &#34;Add the &#39;student-access-images&#39; submodule&#34;
+git push origin master</pre></div></li>
+
+<li><p>Once these commands are run, open your <code>student-image-processing</code> repository on github and check that the submodule is added:</p>
+
+<p><img src="/JEFFRIS/github-submodule-added.png" alt="Image here" /></p>
+
+<p>The interesting folder icon in the image above is the submodule. The <code>@ 09d8a20</code> after the folder name is the last commit for <code>student-access-images</code> on this repository.</p></li>
+</ol>
+
+<h1 id="troubleshooting">Troubleshooting</h1>
+
+<h2 id="troubleshooting-the-upstream-setup">Troubleshooting the Upstream Setup</h2>
 
 <p>Also, if any of the information in your <code>git remote -v</code> output is incorrect, use <br /></p>
 <div class="highlight"><pre class="chroma">git remote set-url [origin or upstream] the-correct-url.com/something.git</pre></div>
@@ -167,12 +195,20 @@ upstream    https://github.com/bwsi-hadr/student-image-processing.git (push)</pr
 
 <p><img src="/JEFFRIS/git-remote-set-url.gif" alt="Code here" /></p>
 
-<h2 id="set-up-your-submodule">Set up your Submodule</h2>
+<h2 id="troubleshooting-the-submodule-setup">Troubleshooting the Submodule Setup</h2>
 
-<p>Submodules are an important feature for larger git projects. Instead</p>
+<p>If you set the wrong repository as your submodule, follow the following steps to remove it.</p>
 
 <ol>
-<li></li>
+<li><p>Remove the actual folder. In the repository, running the following command will remove the folder:</p>
+<div class="highlight"><pre class="chroma">rm -rf student-access-images</pre></div></li>
+
+<li><p>Remove the <code>.gitmodules</code> file. This can be done by doing the following:</p>
+<div class="highlight"><pre class="chroma">rm .gitmodules</pre></div></li>
+
+<li><p>Then, open the file <code>config</code> in the <code>.git</code> folder and remove the lines that specify the submodule. This file can be opened with the following command:</p>
+<div class="highlight"><pre class="chroma">nano .git/config</pre></div>
+<p>Now, you should be ready to add the submodule.</p></li>
 </ol>
 
 </div>

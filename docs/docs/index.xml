@@ -29,5 +29,14 @@
       <description>Add the Upstream To properly set up your github repositories, you will need to set the MIT code repositories as your upstreams. While the origin repository represents code that you write, the upstream repository is the original repostiory that your code &amp;ldquo;works off of.&amp;rdquo; At first, it may seem like you don&amp;rsquo;t need to use the upstream anymore, since you already have the code. However, this is an important step because if the upstream code changes, adding the upstream allows you to update your code to match the most recent state of the upstream.</description>
     </item>
     
+    <item>
+      <title>Git Workflow</title>
+      <link>https://intermezzio.github.io/JEFFRIS/docs/git-workflow/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://intermezzio.github.io/JEFFRIS/docs/git-workflow/</guid>
+      <description> Summary Staging files Commits Push Pull Merge Troubleshooting </description>
+    </item>
+    
   </channel>
 </rss>

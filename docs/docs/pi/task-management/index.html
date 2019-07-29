@@ -106,16 +106,20 @@
       <a href="https://intermezzio.github.io/JEFFRIS/docs/code-downloads/">Download the Code</a>
     </li>
     
-    <li class="active ">
-      <a href="https://intermezzio.github.io/JEFFRIS/docs/pi/task-management/">Task Management</a>
-    </li>
-    
     <li class="">
       <a href="https://intermezzio.github.io/JEFFRIS/docs/repository-config/">Repository Configurations</a>
     </li>
     
     <li class="">
+      <a href="https://intermezzio.github.io/JEFFRIS/docs/git-workflow/">Git Workflow</a>
+    </li>
+    
+    <li class="">
       <a href="https://intermezzio.github.io/JEFFRIS/docs/pi/ssh/">SSH</a>
+    </li>
+    
+    <li class="active ">
+      <a href="https://intermezzio.github.io/JEFFRIS/docs/pi/task-management/">Task Management</a>
     </li>
     
   </ul>
@@ -131,7 +135,24 @@
 
 <h2 id="starting-a-script-in-the-terminal">Starting a Script in the Terminal</h2>
 
-<h2 id="ending-a-script-in-the-terminal-task-manager">Ending a Script in the (Terminal) Task Manager</h2>
+<p>Although scripts can be executed (run) in many ways, the simplest and easiest way to run scripts is the terminal. For this project, you will be running Python in the terminal.</p>
+
+<ol>
+<li><p>Install Python 3 on your computer. On Linux machines, this can be done by opening a terminal and running</p>
+<div class="highlight"><pre class="chroma">sudo apt install python3</pre></div></li>
+
+<li><p>To run your code, go to the directory of the Python script and run</p>
+<div class="highlight"><pre class="chroma">python3 python_script.py</pre></div>
+<p>This would run the file <code>python_script.py</code> in the terminal. On some computers, usually computers where Python 2 is not installed, you can replace <code>python3</code> with <code>python</code> in the command, but this is guaranteed to work.</p></li>
+
+<li><p>If you want to debug your code, it may be advantageous to run the command with a <code>-i</code> flag. This means that a Python console will open after the program is executed, where one can access variables and other data. Run this by writing the following command:</p>
+<div class="highlight"><pre class="chroma">python3 -i python_script.py</pre></div>
+<p>To exit the Python console, use the shortcut <code>CTRL+d</code> or run <code>quit()</code> in the console.</p>
+
+<p><img src="/JEFFRIS/python3-python_script.gif" alt="" /></p></li>
+</ol>
+
+<h2 id="ending-a-script-using-the-task-manager">Ending a Script Using the Task Manager</h2>
 
 <p>A task manager is important for remotely managing your scripts on the Raspberry Pi. Because the Raspberry Pi has a weak processor, it is ideal to use a terminal based task manager to end unnecessary tasks, like scripts that have already completed.</p>
 

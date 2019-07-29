@@ -40,7 +40,35 @@ To properly set up your github repositories, you will need to set the MIT code r
 	The command `clear` in a Linux command line clears the terminal, similar to the clear button on a calculator. The command is completely optional and does not affect the repositories. <br />
 	**Please Note:** Your origin should have your username, not intermezzio, as the owner of each repository. 
 
-## Troubleshooting
+
+
+## Set up your Submodule
+
+Submodules are an important feature for larger git projects. A submodule connects two repositories, which means that one repository is literally inside another. More information about submodules can be found [here](https://www.atlassian.com/blog/git/git-submodules-workflows-tips). In this project, you will make your `student-access-images` repository a submodule of your `student-image-processing` repository.
+
+1. Open a terminal (or git bash terminal) on your computer and navigate to your `student-image-processing` project folder. You should have cloned this repository when you [downloaded the code](/JEFFRIS/docs/code-downloads).
+
+2. **BE EXTREMELY CAREFUL** when you perform this next step. Make sure your **forked** `student-access-images` repository is set as the submodule, as opposed to the bwsi-hadr one. To add the submodule, run the following command in your `student-image-processing` repository:
+	```
+	git submodule add https://github.com/<username>/student-access-images.git
+	```
+
+3. Save your changes by typing the following code:
+	```
+	git add .
+	git commit -m "Add the 'student-access-images' submodule"
+	git push origin master
+	```
+
+4. Once these commands are run, open your `student-image-processing` repository on github and check that the submodule is added:
+	
+	![Image here](/JEFFRIS/github-submodule-added.png)
+
+	The interesting folder icon in the image above is the submodule. The `@ 09d8a20` after the folder name is the last commit for `student-access-images` on this repository.
+
+# Troubleshooting
+
+## Troubleshooting the Upstream Setup
 
 Also, if any of the information in your `git remote -v` output is incorrect, use <br />
 ```
@@ -50,8 +78,22 @@ to fix your links
 
 ![Code here](/JEFFRIS/git-remote-set-url.gif)
 
-## Set up your Submodule
+## Troubleshooting the Submodule Setup
 
-Submodules are an important feature for larger git projects. Instead 
+If you set the wrong repository as your submodule, follow the following steps to remove it.
 
-1. 
+1. Remove the actual folder. In the repository, running the following command will remove the folder:
+	```
+	rm -rf student-access-images
+	```
+
+2. Remove the `.gitmodules` file. This can be done by doing the following:
+	```
+	rm .gitmodules
+	```
+
+3. Then, open the file `config` in the `.git` folder and remove the lines that specify the submodule. This file can be opened with the following command:
+	```
+	nano .git/config
+	```
+	Now, you should be ready to add the submodule.
