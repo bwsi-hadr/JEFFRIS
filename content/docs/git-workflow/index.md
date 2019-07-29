@@ -83,3 +83,11 @@ Once you have merged the files, choosing how to combine the two (or more) commit
 The above gif shows a possible merge conflict in the instructors' code (image-processing). I updated a python script on my computer, and the origin had an updated README. The automatic merge updated both files because the edits did not overlap.
 
 # Troubleshooting
+
+## Git Pull and Push
+
+If not configured or executed correctly, git pull and push commands may throw errors.
+
+### Error 403: Forbidden
+
+This error originates when you do not have editing access to push to a github repository. 
