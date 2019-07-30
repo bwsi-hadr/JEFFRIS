@@ -10,13 +10,13 @@ SSH is short for Secure Shell. Because a Raspberry Pi is a standalone computer w
 
 ## Setting up SSH in Linux
 
-With a Linux system you can SSH directly from a terminal.  
+With a Linux system you can SSH directly from a terminal.
 
 Open a new terminal and run the following command:
 ```
 ssh pi@raspberrypi.local
 ```
-The format is `<username>@<IP address`. You will be prompted enter a password, the default password for the Raspberry Pi is "raspberry."
+The format is `<username>@<IP address>`. You will be prompted enter a password, the default password for the Raspberry Pi is "raspberry."
 
 ###Setting up SSH in Windows
 
