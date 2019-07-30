@@ -90,4 +90,37 @@ If not configured or executed correctly, git pull and push commands may throw er
 
 ### Error 403: Forbidden
 
-This error originates when you do not have editing access to push to a github repository. 
+This error originates when you do not have editing access to push to a github repository. Check your output to `git remote -v` and check two things:
+* Your origin URL should end in ".git"
+* You should have editing access for the online repository (check GitHub for this)
+
+To [change the URL](../repository-config), use `git remote set-url <location> <URL>`
+
+### Error Remote does not Exist
+
+This error during a git pull or push command means that the URL for the origin is invalid. Use `git remote set-url <location> <URL>` to update it.
+
+### Error for Object Files
+
+This error means that object files, some git config data, are not set up properly. To fix this, take the following steps:
+
+1. Run the following command which lets you search for object files. Then remove those object files.
+	```
+	find .git/objects/ -type f -empty | xargs rm
+	```
+
+2. Now, fetch the origin (basically letting it overwrite and replace object files).
+	```
+	git fetch -p
+	```
+
+3. Finally, do a full check of the object files in your repository
+	```
+	git fsck --full
+	```
+
+After this, you can git push properly because the object files are fixed.
+
+## Could not Resolve Host
+
+This seems like a URL problem, but in reality, this is probably a Wi-Fi problem. If you cannot connect to github.com, enable Wi-Fi and try the command again.
