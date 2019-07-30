@@ -195,6 +195,43 @@
 
 <h1 id="troubleshooting">Troubleshooting</h1>
 
+<h2 id="git-pull-and-push">Git Pull and Push</h2>
+
+<p>If not configured or executed correctly, git pull and push commands may throw errors.</p>
+
+<h3 id="error-403-forbidden">Error 403: Forbidden</h3>
+
+<p>This error originates when you do not have editing access to push to a github repository. Check your output to <code>git remote -v</code> and check two things:
+* Your origin URL should end in &ldquo;.git&rdquo;
+* You should have editing access for the online repository (check GitHub for this)</p>
+
+<p>To <a href="../repository-config">change the URL</a>, use <code>git remote set-url &lt;location&gt; &lt;URL&gt;</code></p>
+
+<h3 id="error-remote-does-not-exist">Error Remote does not Exist</h3>
+
+<p>This error during a git pull or push command means that the URL for the origin is invalid. Use <code>git remote set-url &lt;location&gt; &lt;URL&gt;</code> to update it.</p>
+
+<h3 id="error-for-object-files">Error for Object Files</h3>
+
+<p>This error means that object files, some git config data, are not set up properly. To fix this, take the following steps:</p>
+
+<ol>
+<li><p>Run the following command which lets you search for object files. Then remove those object files.</p>
+<div class="highlight"><pre class="chroma">find .git/objects/ -type f -empty | xargs rm</pre></div></li>
+
+<li><p>Now, fetch the origin (basically letting it overwrite and replace object files).</p>
+<div class="highlight"><pre class="chroma">git fetch -p</pre></div></li>
+
+<li><p>Finally, do a full check of the object files in your repository</p>
+<div class="highlight"><pre class="chroma">git fsck --full</pre></div></li>
+</ol>
+
+<p>After this, you can git push properly because the object files are fixed.</p>
+
+<h2 id="could-not-resolve-host">Could not Resolve Host</h2>
+
+<p>This seems like a URL problem, but in reality, this is probably a Wi-Fi problem. If you cannot connect to github.com, enable Wi-Fi and try the command again.</p>
+
 </div>
 </div>
 
