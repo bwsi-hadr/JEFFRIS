@@ -135,9 +135,27 @@
 
 <h2 id="what-is-ssh">What is SSH</h2>
 
-<p>SSH is short for Secure SHell. Because a Raspberry Pi is a standalone computer without a keyboard, mouse, or monitor, the question arises: how are you supposed to use the Raspberry Pi? SSH allows a computer to remotely access and run commands on another computer. In this case, a personal computer or team laptop will &ldquo;SSH&rdquo; into the Raspberry Pi to write code and run commands.</p>
+<p>SSH is short for Secure Shell. Because a Raspberry Pi is a standalone computer without a keyboard, mouse, or monitor, the question arises: how are you supposed to use the Raspberry Pi? SSH allows a computer to remotely access and run commands on another computer. In this case, a personal computer or team laptop will &ldquo;SSH&rdquo; into the Raspberry Pi to write code and run commands.</p>
 
-<h2 id="setting-up-ssh">Setting up SSH</h2>
+<h2 id="setting-up-ssh-in-linux">Setting up SSH in Linux</h2>
+
+<p>With a Linux system you can SSH directly from a terminal.</p>
+
+<p>Open a new terminal and run the following command:</p>
+<div class="highlight"><pre class="chroma">ssh pi@raspberrypi.local</pre></div>
+<p>The format is <code>&lt;username&gt;@&lt;IP address</code>. You will be prompted enter a password, the default password for the Raspberry Pi is &ldquo;raspberry.&rdquo;</p>
+
+<p>###Setting up SSH in Windows</p>
+
+<p>For Windows systems you will need to install PuTTY, which is a open-source terminal emulator. If you do not already have it installed, you can download it here: <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html</a></p>
+
+<p>Once PuTTY is installed, you can open it and input the IP address in the space labeled &ldquo;Host Name (or IP address).&rdquo;  Leave the default Port as 22 and than click &ldquo;Open&rdquo; at the bottom right of the PuTTY window.</p>
+
+<p>You will be prompted to input a username and password for the Raspberry Pi.
+Username Default: pi
+Password Default: raspberry</p>
+
+<p>###Now you have successfully SSH into the Raspberry Pi!!</p>
 
 </div>
 </div>
