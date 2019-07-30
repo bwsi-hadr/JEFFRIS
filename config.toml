@@ -30,7 +30,7 @@ pygmentsUseClasses = true
   homepage_button_link = '/docs'
   homepage_button_text = 'Learn More'
   homepage_intro = 'homepage_intro here'
-  homepage_image = '/remsens-sky-kite.jpg'
+  homepage_image = 'remsens-sky-kite.jpg'
 
   [params.homepage_meta_tags]
     meta_description = "JEFFRIS is a project for MIT Beaver Works Summer Institute Remote Sensing. This project involves Raspberry Pis taking pictures which are later processed using Python and OpenCV."
