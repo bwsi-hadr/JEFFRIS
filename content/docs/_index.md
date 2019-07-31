@@ -4,7 +4,7 @@ date: 2018-11-28T15:14:39+10:00
 weight: 1
 ---
 
-## About JEFFRIS
+## What is JEFFRIS
 
 JEFFRIS is an acronym for: <br />
 **J**ust  <br />

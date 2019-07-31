@@ -17,12 +17,17 @@ pygmentsUseClasses = true
 [[menu.main]]
     name = "Docs"
     url = "/docs/"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     name = "Pi"
     url = "/docs/pi/"
-    weight = 3
+    weight = 4
+
+[[menu.main]]
+    name = "About"
+    url = "/docs/about/"
+    weight = 2
 
 
 [params]
@@ -37,7 +42,7 @@ pygmentsUseClasses = true
     meta_og_title = "JEFFRIS Home"
     meta_og_type = "website"
     meta_og_url = "https://intermezzio.github.io/JEFFRIS"
-    meta_og_image = "https://beaverworks.ll.mit.edu/CMS/bw/sites/all/themes/professional_theme/logo.png"
+    meta_og_image = "mit-bwsi-full.png"
     meta_og_description = "JEFFRIS is a project for MIT Beaver Works Summer Institute Remote Sensing. This project involves Raspberry Pis taking pictures which are later processed using Python and OpenCV."
 
   [params.logo]

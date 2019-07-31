@@ -17,7 +17,7 @@
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/JEFFRIS/docs/code-downloads/</guid>
-      <description>There are three Github repositories for this project, as follows:   NameLinkPurpose  student-image-processing https://github.com/bwsi-hadr/student-image-processing Process Images using Python and OpenCV, and show the analysis in Flask.   student-access-images https://github.com/bwsi-hadr/student-access-images Use MongoDB to store Raspberry Pi images to a database, and create methods to open them in the Flask application.   student-pi-imaging https://github.com/bwsi-hadr/student-pi-imaging Take time lapse images on the Raspberry Pi during flights.    Creating Forks of the Repositories  Open the image processing repository above.</description>
+      <description>Because this project is completed by a team of students, each aspect of the project&amp;rsquo;s code (below) is stored on a Github repository. This allows all team members to easily work together on the project in parallel, and it also allows the instructors to share code with the students throughout the project. There are three Github repositories for this project, as follows:   NameLinkPurpose  student-image-processing https://github.com/bwsi-hadr/student-image-processing Process Images using Python and OpenCV, and show the analysis in Flask.</description>
     </item>
     
     <item>

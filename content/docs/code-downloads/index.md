@@ -4,7 +4,7 @@ date: 2019-02-11T19:27:37+10:00
 weight: 2
 ---
 
-There are three Github repositories for this project, as follows:
+Because this project is completed by a team of students, each aspect of the project's code (below) is stored on a Github repository. This allows all team members to easily work together on the project in parallel, and it also allows the instructors to share code with the students throughout the project. There are three Github repositories for this project, as follows:
 <table>
 	<tbody>
 		<tr><td>**Name**</td><td>**Link**</td><td>**Purpose**</td></tr>
