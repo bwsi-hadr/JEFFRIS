@@ -4,7 +4,7 @@ date: 2018-11-28T15:14:39+10:00
 
 ---
 
-<!--
+
 <style type="text/css">
 	#email-feedback * {
 		margin: 5px;
@@ -26,7 +26,7 @@ date: 2018-11-28T15:14:39+10:00
 		color: lightblue;
 		background-color: black;
 	}
-</style> -->
+</style> 
 
 ### Beaver Works Summer Institute
 
