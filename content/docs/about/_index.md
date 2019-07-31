@@ -1,9 +1,10 @@
 ---
 title: 'About Us'
 date: 2018-11-28T15:14:39+10:00
-weight: 0
 
 ---
+
+<!--
 <style type="text/css">
 	#email-feedback * {
 		margin: 5px;
@@ -25,7 +26,7 @@ weight: 0
 		color: lightblue;
 		background-color: black;
 	}
-</style>
+</style> -->
 
 ### Beaver Works Summer Institute
 
