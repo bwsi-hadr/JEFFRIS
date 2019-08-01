@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About the Pi on JEFFRIS</title>
-    <link>/JEFFRIS/docs/pi/</link>
+    <link>bwsi-hadr.github.io/JEFFRIS/docs/pi/</link>
     <description>Recent content in About the Pi on JEFFRIS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate>
     
-	<atom:link href="/JEFFRIS/docs/pi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="bwsi-hadr.github.io/JEFFRIS/docs/pi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SSH</title>
-      <link>/JEFFRIS/docs/pi/ssh/</link>
+      <link>bwsi-hadr.github.io/JEFFRIS/docs/pi/ssh/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
-      <guid>/JEFFRIS/docs/pi/ssh/</guid>
+      <guid>bwsi-hadr.github.io/JEFFRIS/docs/pi/ssh/</guid>
       <description>What is SSH SSH is short for Secure Shell. Because a Raspberry Pi is a standalone computer without a keyboard, mouse, or monitor, the question arises: how are you supposed to use the Raspberry Pi? SSH allows a computer to remotely access and run commands on another computer. In this case, a personal computer or team laptop will &amp;ldquo;SSH&amp;rdquo; into the Raspberry Pi to write code and run commands.</description>
     </item>
     
     <item>
       <title>Task Management</title>
-      <link>/JEFFRIS/docs/pi/task-management/</link>
+      <link>bwsi-hadr.github.io/JEFFRIS/docs/pi/task-management/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
-      <guid>/JEFFRIS/docs/pi/task-management/</guid>
+      <guid>bwsi-hadr.github.io/JEFFRIS/docs/pi/task-management/</guid>
       <description>Starting a Script in the Terminal Although scripts can be executed (run) in many ways, the simplest and easiest way to run scripts is the terminal. For this project, you will be running Python in the terminal.
  Install Python 3 on your computer. On Linux machines, this can be done by opening a terminal and running
 sudo apt install python3 To run your code, go to the directory of the Python script and run</description>

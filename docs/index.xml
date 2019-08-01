@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JEFFRIS</title>
-    <link>/JEFFRIS/</link>
+    <link>bwsi-hadr.github.io/JEFFRIS/</link>
     <description>Recent content on JEFFRIS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jul 2019 12:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/JEFFRIS/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="bwsi-hadr.github.io/JEFFRIS/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Download the Code</title>
-      <link>/JEFFRIS/docs/code-downloads/</link>
+      <link>bwsi-hadr.github.io/JEFFRIS/docs/code-downloads/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>/JEFFRIS/docs/code-downloads/</guid>
+      <guid>bwsi-hadr.github.io/JEFFRIS/docs/code-downloads/</guid>
       <description>Because this project is completed by a team of students, each aspect of the project&amp;rsquo;s code (below) is stored on a Github repository. This allows all team members to easily work together on the project in parallel, and it also allows the instructors to share code with the students throughout the project. There are three Github repositories for this project, as follows:   NameLinkPurpose  student-image-processing https://github.com/bwsi-hadr/student-image-processing Process Images using Python and OpenCV, and show the analysis in Flask.</description>
     </item>
     
     <item>
       <title>Repository Configurations</title>
-      <link>/JEFFRIS/docs/repository-config/</link>
+      <link>bwsi-hadr.github.io/JEFFRIS/docs/repository-config/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>/JEFFRIS/docs/repository-config/</guid>
+      <guid>bwsi-hadr.github.io/JEFFRIS/docs/repository-config/</guid>
       <description>Add the Upstream To properly set up your github repositories, you will need to set the MIT code repositories as your upstreams. While the origin repository represents code that you write, the upstream repository is the original repostiory that your code &amp;ldquo;works off of.&amp;rdquo; At first, it may seem like you don&amp;rsquo;t need to use the upstream anymore, since you already have the code. However, this is an important step because if the upstream code changes, adding the upstream allows you to update your code to match the most recent state of the upstream.</description>
     </item>
     
     <item>
       <title>Git Workflow</title>
-      <link>/JEFFRIS/docs/git-workflow/</link>
+      <link>bwsi-hadr.github.io/JEFFRIS/docs/git-workflow/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
-      <guid>/JEFFRIS/docs/git-workflow/</guid>
+      <guid>bwsi-hadr.github.io/JEFFRIS/docs/git-workflow/</guid>
       <description>Summary Git is a very efficient program that helps manage project development. Although it may seem complicating at first, all of its features are designed so you can easily track versions and work in parallel with others. The following tasks are done after code is edited to share that code with others.
 Staging files With git, changes to code are sent in &amp;ldquo;commits&amp;rdquo;. Commits state what files are changed and how.</description>
     </item>
     
     <item>
       <title>SSH</title>
-      <link>/JEFFRIS/docs/pi/ssh/</link>
+      <link>bwsi-hadr.github.io/JEFFRIS/docs/pi/ssh/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
-      <guid>/JEFFRIS/docs/pi/ssh/</guid>
+      <guid>bwsi-hadr.github.io/JEFFRIS/docs/pi/ssh/</guid>
       <description>What is SSH SSH is short for Secure Shell. Because a Raspberry Pi is a standalone computer without a keyboard, mouse, or monitor, the question arises: how are you supposed to use the Raspberry Pi? SSH allows a computer to remotely access and run commands on another computer. In this case, a personal computer or team laptop will &amp;ldquo;SSH&amp;rdquo; into the Raspberry Pi to write code and run commands.</description>
     </item>
     
     <item>
       <title>Task Management</title>
-      <link>/JEFFRIS/docs/pi/task-management/</link>
+      <link>bwsi-hadr.github.io/JEFFRIS/docs/pi/task-management/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
-      <guid>/JEFFRIS/docs/pi/task-management/</guid>
+      <guid>bwsi-hadr.github.io/JEFFRIS/docs/pi/task-management/</guid>
       <description>Starting a Script in the Terminal Although scripts can be executed (run) in many ways, the simplest and easiest way to run scripts is the terminal. For this project, you will be running Python in the terminal.
  Install Python 3 on your computer. On Linux machines, this can be done by opening a terminal and running
 sudo apt install python3 To run your code, go to the directory of the Python script and run</description>

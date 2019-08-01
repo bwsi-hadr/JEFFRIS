@@ -1,4 +1,4 @@
-baseURL = "/JEFFRIS"
+baseURL = "bwsi-hadr.github.io/JEFFRIS"
 languageCode = "en-us"
 publishDir = "docs"
 title = "JEFFRIS"
