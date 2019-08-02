@@ -17,7 +17,8 @@
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>bwsi-hadr.github.io/JEFFRIS/docs/pi/ssh/</guid>
-      <description>What is SSH SSH is short for Secure Shell. Because a Raspberry Pi is a standalone computer without a keyboard, mouse, or monitor, the question arises: how are you supposed to use the Raspberry Pi? SSH allows a computer to remotely access and run commands on another computer. In this case, a personal computer or team laptop will &amp;ldquo;SSH&amp;rdquo; into the Raspberry Pi to write code and run commands.</description>
+      <description>SSH is short for Secure Shell. Because a Raspberry Pi is a standalone computer without a keyboard, mouse, or monitor, the question arises: how are you supposed to use the Raspberry Pi? SSH allows a computer to remotely access and run commands on another computer. In this case, a personal computer or team laptop will &amp;ldquo;SSH&amp;rdquo; into the Raspberry Pi to write code and run commands.
+Setting up SSH in Linux/MacOS With a Linux or Mac system you can SSH directly from a terminal.</description>
     </item>
     
     <item>
@@ -26,9 +27,8 @@
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>bwsi-hadr.github.io/JEFFRIS/docs/pi/task-management/</guid>
-      <description>Starting a Script in the Terminal Although scripts can be executed (run) in many ways, the simplest and easiest way to run scripts is the terminal. For this project, you will be running Python in the terminal.
- Install Python 3 on your computer. On Linux machines, this can be done by opening a terminal and running
-sudo apt install python3 To run your code, go to the directory of the Python script and run</description>
+      <description>Task management is an important part of managing the Raspberry Pi. This is more difficult on the Raspberry Pi than on a normal computer because it is run in headless mode. This means that the Raspberry Pi is being controlled remotely by another computer. Instead of opening a task manager on the Raspberry Pi, the following instructions state a better way to manage tasks.
+Starting a Script in the Terminal Although scripts can be executed (run) in many ways, the simplest and easiest way to run scripts is the terminal.</description>
     </item>
     
   </channel>

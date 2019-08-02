@@ -26,7 +26,7 @@
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
       <guid>bwsi-hadr.github.io/JEFFRIS/docs/repository-config/</guid>
-      <description>Add the Upstream To properly set up your github repositories, you will need to set the MIT code repositories as your upstreams. While the origin repository represents code that you write, the upstream repository is the original repostiory that your code &amp;ldquo;works off of.&amp;rdquo; At first, it may seem like you don&amp;rsquo;t need to use the upstream anymore, since you already have the code. However, this is an important step because if the upstream code changes, adding the upstream allows you to update your code to match the most recent state of the upstream.</description>
+      <description>To properly set up your github repositories, you will need to set the MIT code repositories as your upstreams. While the origin repository represents code that you write, the upstream repository is the original repostiory that your code &amp;ldquo;works off of.&amp;rdquo; At first, it may seem like you don&amp;rsquo;t need to use the upstream anymore, since you already have the code. However, this is an important step because if the upstream code changes, adding the upstream allows you to update your code to match the most recent state of the upstream.</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>bwsi-hadr.github.io/JEFFRIS/docs/git-workflow/</guid>
-      <description>Summary Git is a very efficient program that helps manage project development. Although it may seem complicating at first, all of its features are designed so you can easily track versions and work in parallel with others. The following tasks are done after code is edited to share that code with others.
+      <description>Git is a very efficient program that helps manage project development. Although it may seem complicating at first, all of its features are designed so you can easily track versions and work in parallel with others. The following tasks are done after code is edited to share that code with others.
 Staging files With git, changes to code are sent in &amp;ldquo;commits&amp;rdquo;. Commits state what files are changed and how.</description>
     </item>
     
@@ -45,7 +45,8 @@ Staging files With git, changes to code are sent in &amp;ldquo;commits&amp;rdquo
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>bwsi-hadr.github.io/JEFFRIS/docs/pi/ssh/</guid>
-      <description>What is SSH SSH is short for Secure Shell. Because a Raspberry Pi is a standalone computer without a keyboard, mouse, or monitor, the question arises: how are you supposed to use the Raspberry Pi? SSH allows a computer to remotely access and run commands on another computer. In this case, a personal computer or team laptop will &amp;ldquo;SSH&amp;rdquo; into the Raspberry Pi to write code and run commands.</description>
+      <description>SSH is short for Secure Shell. Because a Raspberry Pi is a standalone computer without a keyboard, mouse, or monitor, the question arises: how are you supposed to use the Raspberry Pi? SSH allows a computer to remotely access and run commands on another computer. In this case, a personal computer or team laptop will &amp;ldquo;SSH&amp;rdquo; into the Raspberry Pi to write code and run commands.
+Setting up SSH in Linux/MacOS With a Linux or Mac system you can SSH directly from a terminal.</description>
     </item>
     
     <item>
@@ -54,9 +55,8 @@ Staging files With git, changes to code are sent in &amp;ldquo;commits&amp;rdquo
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>bwsi-hadr.github.io/JEFFRIS/docs/pi/task-management/</guid>
-      <description>Starting a Script in the Terminal Although scripts can be executed (run) in many ways, the simplest and easiest way to run scripts is the terminal. For this project, you will be running Python in the terminal.
- Install Python 3 on your computer. On Linux machines, this can be done by opening a terminal and running
-sudo apt install python3 To run your code, go to the directory of the Python script and run</description>
+      <description>Task management is an important part of managing the Raspberry Pi. This is more difficult on the Raspberry Pi than on a normal computer because it is run in headless mode. This means that the Raspberry Pi is being controlled remotely by another computer. Instead of opening a task manager on the Raspberry Pi, the following instructions state a better way to manage tasks.
+Starting a Script in the Terminal Although scripts can be executed (run) in many ways, the simplest and easiest way to run scripts is the terminal.</description>
     </item>
     
   </channel>
