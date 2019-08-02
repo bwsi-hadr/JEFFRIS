@@ -1,4 +1,4 @@
-baseURL = "/JEFFRIS"
+baseURL = "https://bwsi-hadr.github.io/JEFFRIS"
 languageCode = "en-us"
 publishDir = "docs"
 title = "JEFFRIS"
@@ -36,15 +36,15 @@ pygmentsUseClasses = true
   homepage_button_text = 'Learn More'
   homepage_intro = 'homepage_intro here'
   homepage_image = 'remsens-sky-kite.jpg'
-  homepage_caption = 'Students in the Remote Sensing course fly kites (above) equipped with Raspberry Pis for aerial imaging.'
+  homepage_caption = 'Students in the Remote Sensing course fly kites (above) equipped with Raspberry Pis for aerial imaging'
 
   [params.homepage_meta_tags]
-    meta_description = "JEFFRIS is a project for MIT Beaver Works Summer Institute Remote Sensing. This project involves Raspberry Pis taking pictures which are later processed using Python and OpenCV."
+    meta_description = "JEFFRIS is a project for MIT Beaver Works Summer Institute Remote Sensing course, where aerial images from Raspberry Pis are processed using Python and OpenCV"
     meta_og_title = "JEFFRIS Home"
     meta_og_type = "website"
     meta_og_url = "https://intermezzio.github.io/JEFFRIS"
     meta_og_image = "mit-bwsi-full.png"
-    meta_og_description = "JEFFRIS is a project for MIT Beaver Works Summer Institute Remote Sensing. This project involves Raspberry Pis taking pictures which are later processed using Python and OpenCV."
+    meta_og_description = "JEFFRIS is a project for MIT Beaver Works Summer Institute Remote Sensing course, where aerial images from Raspberry Pis are processed using Python and OpenCV"
 
   [params.logo]
       mobile = "mit-bwsi.png"
