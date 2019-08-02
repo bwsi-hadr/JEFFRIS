@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Overview on JEFFRIS</title>
-    <link>https://bwsi-hadr.github.io/JEFFRIS/docs/</link>
+    <link>https://intermezzio.github.io/JEFFRIS/docs/</link>
     <description>Recent content in Overview on JEFFRIS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate>
     
-	<atom:link href="https://bwsi-hadr.github.io/JEFFRIS/docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://intermezzio.github.io/JEFFRIS/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Download the Code</title>
-      <link>https://bwsi-hadr.github.io/JEFFRIS/docs/code-downloads/</link>
+      <link>https://intermezzio.github.io/JEFFRIS/docs/code-downloads/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>https://bwsi-hadr.github.io/JEFFRIS/docs/code-downloads/</guid>
+      <guid>https://intermezzio.github.io/JEFFRIS/docs/code-downloads/</guid>
       <description>Because this project is completed by a team of students, each aspect of the project&amp;rsquo;s code (below) is stored on a Github repository. This allows all team members to easily work together on the project in parallel, and it also allows the instructors to share code with the students throughout the project. There are three Github repositories for this project, as follows:   NameLinkPurpose  student-image-processing https://github.com/bwsi-hadr/student-image-processing Process Images using Python and OpenCV, and show the analysis in Flask.</description>
     </item>
     
     <item>
       <title>Repository Configurations</title>
-      <link>https://bwsi-hadr.github.io/JEFFRIS/docs/repository-config/</link>
+      <link>https://intermezzio.github.io/JEFFRIS/docs/repository-config/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>https://bwsi-hadr.github.io/JEFFRIS/docs/repository-config/</guid>
+      <guid>https://intermezzio.github.io/JEFFRIS/docs/repository-config/</guid>
       <description>To properly set up your github repositories, you will need to set the MIT code repositories as your upstreams. While the origin repository represents code that you write, the upstream repository is the original repostiory that your code &amp;ldquo;works off of.&amp;rdquo; At first, it may seem like you don&amp;rsquo;t need to use the upstream anymore, since you already have the code. However, this is an important step because if the upstream code changes, adding the upstream allows you to update your code to match the most recent state of the upstream.</description>
     </item>
     
     <item>
       <title>Git Workflow</title>
-      <link>https://bwsi-hadr.github.io/JEFFRIS/docs/git-workflow/</link>
+      <link>https://intermezzio.github.io/JEFFRIS/docs/git-workflow/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
-      <guid>https://bwsi-hadr.github.io/JEFFRIS/docs/git-workflow/</guid>
+      <guid>https://intermezzio.github.io/JEFFRIS/docs/git-workflow/</guid>
       <description>Git is a very efficient program that helps manage project development. Although it may seem complicating at first, all of its features are designed so you can easily track versions and work in parallel with others. The following tasks are done after code is edited to share that code with others.
 Staging files With git, changes to code are sent in &amp;ldquo;commits&amp;rdquo;. Commits state what files are changed and how.</description>
     </item>

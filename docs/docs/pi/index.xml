@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About the Pi on JEFFRIS</title>
-    <link>https://bwsi-hadr.github.io/JEFFRIS/docs/pi/</link>
+    <link>https://intermezzio.github.io/JEFFRIS/docs/pi/</link>
     <description>Recent content in About the Pi on JEFFRIS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate>
     
-	<atom:link href="https://bwsi-hadr.github.io/JEFFRIS/docs/pi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://intermezzio.github.io/JEFFRIS/docs/pi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SSH</title>
-      <link>https://bwsi-hadr.github.io/JEFFRIS/docs/pi/ssh/</link>
+      <link>https://intermezzio.github.io/JEFFRIS/docs/pi/ssh/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
-      <guid>https://bwsi-hadr.github.io/JEFFRIS/docs/pi/ssh/</guid>
+      <guid>https://intermezzio.github.io/JEFFRIS/docs/pi/ssh/</guid>
       <description>SSH is short for Secure Shell. Because a Raspberry Pi is a standalone computer without a keyboard, mouse, or monitor, the question arises: how are you supposed to use the Raspberry Pi? SSH allows a computer to remotely access and run commands on another computer. In this case, a personal computer or team laptop will &amp;ldquo;SSH&amp;rdquo; into the Raspberry Pi to write code and run commands.
 Setting up SSH in Linux/MacOS With a Linux or Mac system you can SSH directly from a terminal.</description>
     </item>
     
     <item>
       <title>Task Management</title>
-      <link>https://bwsi-hadr.github.io/JEFFRIS/docs/pi/task-management/</link>
+      <link>https://intermezzio.github.io/JEFFRIS/docs/pi/task-management/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
-      <guid>https://bwsi-hadr.github.io/JEFFRIS/docs/pi/task-management/</guid>
+      <guid>https://intermezzio.github.io/JEFFRIS/docs/pi/task-management/</guid>
       <description>Task management is an important part of managing the Raspberry Pi. This is more difficult on the Raspberry Pi than on a normal computer because it is run in headless mode. This means that the Raspberry Pi is being controlled remotely by another computer. Instead of opening a task manager on the Raspberry Pi, the following instructions state a better way to manage tasks.
 Starting a Script in the Terminal Although scripts can be executed (run) in many ways, the simplest and easiest way to run scripts is the terminal.</description>
     </item>
