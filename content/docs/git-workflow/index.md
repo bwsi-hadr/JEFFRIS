@@ -4,8 +4,6 @@ date: 2018-11-28T15:14:39+10:00
 weight: 4
 ---
 
-## Summary
-
 Git is a very efficient program that helps manage project development. Although it may seem complicating at first, all of its features are designed so you can easily track versions and work in parallel with others. The following tasks are done after code is edited to share that code with others. 
 
 ### Staging files

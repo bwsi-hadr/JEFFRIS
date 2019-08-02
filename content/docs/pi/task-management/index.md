@@ -4,6 +4,8 @@ date: 2018-11-28T15:14:39+10:00
 weight: 103
 ---
 
+Task management is an important part of managing the Raspberry Pi. This is more difficult on the Raspberry Pi than on a normal computer because it is run in headless mode. This means that the Raspberry Pi is being controlled remotely by another computer. Instead of opening a task manager on the Raspberry Pi, the following instructions state a better way to manage tasks.
+
 ## Starting a Script in the Terminal
 
 Although scripts can be executed (run) in many ways, the simplest and easiest way to run scripts is the terminal. For this project, you will be running Python in the terminal.

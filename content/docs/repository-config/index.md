@@ -5,9 +5,9 @@ draft: false
 weight: 3
 ---
 
-## Add the Upstream
-
 To properly set up your github repositories, you will need to set the MIT code repositories as your upstreams. While the origin repository represents code that you write, the upstream repository is the original repostiory that your code "works off of." At first, it may seem like you don't need to use the upstream anymore, since you already have the code. However, this is an important step because if the upstream code changes, adding the upstream allows you to update your code to match the most recent state of the upstream.
+
+## Add the Upstream
 
 1. Open a terminal and go to the directory of your image processing repository. Then, type the command `git remote -v` to check that your origin is set properly. You should see the following output:
 	```
@@ -39,8 +39,6 @@ To properly set up your github repositories, you will need to set the MIT code r
 
 	The command `clear` in a Linux command line clears the terminal, similar to the clear button on a calculator. The command is completely optional and does not affect the repositories. <br />
 	**Please Note:** Your origin should have your username, not intermezzio, as the owner of each repository. 
-
-
 
 ## Set up your Submodule
 

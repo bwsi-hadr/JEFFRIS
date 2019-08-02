@@ -22,6 +22,7 @@ To complete this project, you will need to have the following:
 
 * A github account
 * git or git bash (Github Desktop can be used alongside git bash)
-* PuTTY (Windows only) or SSH
-<br />
+* PuTTY (Windows only) or SSH  
+
+
 Get started by [downloading the template code](/JEFFRIS/docs/code-downloads).
